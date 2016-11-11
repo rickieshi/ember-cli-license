@@ -1,0 +1,35 @@
+{
+  "name": "ember-cli-license",
+  "version": "1.0.0",
+  "description": "Export npm and bower dependencies into a csv",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember try:each"
+  },
+  "repository": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Ricky Shi",
+  "license": "MIT",
+  "devDependencies": {
+    "bower-json": "^0.8.1",
+    "license-checker": "^8.0.3",
+    "node-dir": "^0.1.16",
+    "rsvp": "^3.3.3",
+    "underscore": "^1.8.3"
+  },
+  "keywords": [
+    "ember-addon",
+    "license",
+    "oss"
+  ],
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  }
+}
