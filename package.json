@@ -17,7 +17,7 @@
   },
   "author": "Ricky Shi",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "bower-json": "^0.8.1",
     "license-checker": "^8.0.3",
     "node-dir": "^0.1.16",
