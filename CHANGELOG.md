@@ -1,5 +1,4 @@
 # Changelog
-----------
 
 ### [0.1.0] - 2016-11-12
 * Added `--production` option
