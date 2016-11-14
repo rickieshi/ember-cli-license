@@ -37,7 +37,7 @@ Options can be specified on the command line
 
 If true, scanner will ignore devDependencies
   
-- `--config or `-c`
+- `--config` or `-c`
 
   Type: **String**
 
