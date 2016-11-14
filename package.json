@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-license",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Export npm and bower license info into a csv",
   "repository": {
     "type": "git",
