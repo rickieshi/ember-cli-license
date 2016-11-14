@@ -1,5 +1,10 @@
 # Changelog
 
+### [1.0.3] - 2016-11-14
+* Added a config obj to cover blanks in csv
+* Fixed a bug that caused --production option not being applied to bower_components
+* other bug fixes
+
 ### [1.0.2] - 2016-11-14
 * Removed /tests folder
 
