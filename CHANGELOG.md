@@ -1,5 +1,8 @@
 # Changelog
 
+### [1.1.0] - 2016-11-14
+* Allow user to pass in a path to a config file
+
 ### [1.0.3] - 2016-11-14
 * Added a config obj to cover blanks in csv
 * Fixed a bug that caused --production option not being applied to bower_components

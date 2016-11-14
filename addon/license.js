@@ -6,35 +6,12 @@ var availableOptions = [{
     default: false,
     aliases: ['prod'],
     description: 'if true, ignore devDependencies'
+}, {
+    name: 'config',
+    type: String,
+    aliases: ['c'],
+    description: 'supply addition info to override scanning result'
 }];
-
-var reference = [
-    {
-        "name": "tweetnacl",
-        "license": "Public Domain"
-    },
-    {
-        "name": "base64id",
-        "license": "MIT"
-    },
-    {
-        "name": "buffers",
-        "license": "MIT/X11"
-    },
-    {
-        "name": "colors",
-        "license": "MIT"
-    },
-    {
-        "name": "cycle",
-        "license": "Public Domain"
-    },
-    {
-        "name": "jstree",
-        "license": "MIT",
-        "repository": "https://github.com/vakata/jstree"
-    }
-];
 
 module.exports = {
     name: 'license',
@@ -52,7 +29,7 @@ module.exports = {
         return licenseScanner.init({
             start: process.cwd(),
             production: options.production,
-            reference
+            config: options.config
         }).then(function () {
             var diff = Date.now() - startTime;
             console.log(`Task finished in ${diff} milliseconds.`);

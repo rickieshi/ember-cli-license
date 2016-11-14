@@ -29,15 +29,58 @@ It will:
 
 Options can be specified on the command line
 
- `--production` or `-prod`
+ - `--production` or `-prod`
+ 
+  Type:  **Boolean**
 
   Default: `false`
 
-  Whether to include devDependencies or not.
+If true, scanner will ignore devDependencies
+  
+- `--config or `-c`
+
+  Type: **String**
+
+  A path to file which provides addition info to override scanning result
+
+## Config
+You can supply path to a config **JSON** file to pass along additional information to scanner.
+
+```sh
+$ ember license -c licenseConfig.json
+```
+
+```javascript
+// licenseConfig.json
+{
+    // information listed in references array will override scanner results
+    "reference": [{
+        "name": "name",
+        "license": "license",
+        "repository": "repository",
+        "version": "version",
+        "licenseFile": "licenseFile"
+    }],
+    // these entries will be appended after scanner results
+    "npm": [{
+        "name": "name",
+        "license": "license",
+        "repository": "repository",
+        "version": "version",
+        "licenseFile": "licenseFile"
+    }],
+    "bower": [{
+        "name": "name",
+        "license": "license",
+        "repository": "repository",
+        "version": "version",
+        "licenseFile": "licenseFile"
+    }]
+}
+```
 
 ## TODO
 * Allow user to define bower_component path
-* A config / library file to fill in blanks in csv
 
 ## Credits
 * davglass's [license-checker](https://github.com/davglass/license-checker)
