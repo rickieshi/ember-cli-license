@@ -1,5 +1,8 @@
 # Changelog
 
+### [1.0.1] - 2016-11-14
+* Bug fixes
+
 ### [1.0.0] - 2016-11-13
 * Attach a timestamp at the end of filename to avoid duplicate filenames
 * Added console output
