@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.0.0] - 2016-11-13
+* Attach a timestamp at the end of filename to avoid duplicate filenames
+* Added console output
+* Bug fixes
+* Code refactoring
+
 ### [0.1.0] - 2016-11-12
 * Added `--production` option
 * Code refactoring
