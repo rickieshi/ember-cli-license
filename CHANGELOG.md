@@ -1,5 +1,9 @@
 # Changelog
 
+
+### [1.1.1] - 2016-11-16
+* Code refactoring
+
 ### [1.1.0] - 2016-11-14
 * Allow user to pass in a path to a config file
 
