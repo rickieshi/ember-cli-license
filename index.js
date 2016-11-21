@@ -5,7 +5,7 @@ module.exports = {
     name: 'ember-cli-license',
     includedCommands: function () {
         return {
-            release : require('./addon/license')
+            release : require('./bin/license')
         };
     }
 };
