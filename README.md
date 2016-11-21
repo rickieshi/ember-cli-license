@@ -82,6 +82,12 @@ $ ember license -c licenseConfig.json
 ## TODO
 * Allow user to define bower_component path
 
+## Beta Feature - current at 1.2.0-beta.1
+**Following features are not stable, use beta release is not recommended**
+
+* Once run `ember license` at project root, a file will now be generated at`assets/licenses/licenses.csv`
+* You can add a `{{license-page}}` component in your template, the component is a modal which uses an ajax call to fetch `.csv` file and renders content on page
+
 ## Credits
 * davglass's [license-checker](https://github.com/davglass/license-checker)
 * AceMetrix's [bower-license](https://github.com/AceMetrix/bower-license)
