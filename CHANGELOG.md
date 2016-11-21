@@ -1,5 +1,8 @@
 # Changelog
 
+### [1.2.0-beta.1]
+* Add a component to display license page on UI
+* Changed the output path and filename
 
 ### [1.1.1] - 2016-11-16
 * Code refactoring
