@@ -4,11 +4,11 @@ import $ from 'jquery';
 
 export default component.extend({
     layout,
+    title: null,
     classNames: ['license-page'],
 
     init() {
         this._super(...arguments);
-
         // TODO: parameterize this path
         $.ajax('assets/licenses/licenses.csv').then(content => {
             this.set('content', content);

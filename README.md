@@ -26,7 +26,7 @@ It will:
   1. Look for a `node_modules`  and a `bower_components` folder at current path
   2. Scan recursively for npm packages and bower dependencies
   3. Output in `public/assets/licenses/licenses.csv`
-  4. You can add a `{{license-page}}` component in your template, the component is a modal which uses an ajax call to fetch `.csv` ( **hardcoded to assets/licenses/licenses.csv** ) file and renders content on page
+  4. You can add a `{{license-page title=title}}` component in your template, the component is a modal which uses an ajax call to fetch `.csv` ( **hardcoded to assets/licenses/licenses.csv** ) file and renders content on page
 
 ## Options
 
