@@ -1,6 +1,19 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
 .DS_Store
-logs
-*.log
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
 npm-debug.log*
-node_modules
-bower_components
+testem.log
