@@ -1,6 +1,6 @@
 # Changelog
 
-### [Unreleased] - 2016-11-22
+### [1.2.0-beta.2] - 2016-12-01
 * Allow user to specify text displayed in UI component
 * Code Refactoring
 
