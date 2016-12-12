@@ -1,5 +1,8 @@
 # Changelog
 
+### [1.2.0-beta.3] - 2016-12-01
+* Added code to generate html file contenting license info
+
 ### [1.2.0-beta.2] - 2016-12-01
 * Allow user to specify text displayed in UI component
 * Code Refactoring

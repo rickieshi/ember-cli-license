@@ -1,6 +1,9 @@
 import component from 'ember-component';
 import layout from '../templates/components/license-page';
 import $ from 'jquery';
+import {
+    htmlSafe
+} from 'ember-string';
 
 export default component.extend({
     layout,
@@ -10,8 +13,8 @@ export default component.extend({
     init() {
         this._super(...arguments);
         // TODO: parameterize this path
-        $.ajax('assets/licenses/licenses.csv').then(content => {
-            this.set('content', content);
+        $.ajax('assets/licenses/licenses.html').then(content => {
+            this.set('content', htmlSafe(content));
         }, () => {
             this.set('content', 'Error in fetching licenses');
         });
