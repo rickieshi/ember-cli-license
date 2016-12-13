@@ -86,6 +86,7 @@ The addon comes with minimal styles so that you can override them easily.
 ## TODO
 * Expose AJAX path
 * Consolidate code
+* Supply default license contents if not found in project
 
 ## Credits
 * davglass's [license-checker](https://github.com/davglass/license-checker)
