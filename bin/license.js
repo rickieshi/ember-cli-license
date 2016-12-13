@@ -10,7 +10,7 @@ var availableOptions = [{
     name: 'config',
     type: String,
     aliases: ['c'],
-    description: 'supply addition info to override scanning result'
+    description: 'supply additional info to override scanning result'
 }];
 
 module.exports = {
