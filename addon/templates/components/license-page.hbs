@@ -1,0 +1,9 @@
+{{! based on http://www.w3schools.com/howto/howto_css_modals.asp}}
+<a {{action 'openModal'}}>{{title}}</a>
+
+<div class='modal'>
+    <div class='modal-content'>
+        <span class='close' {{action 'hideModal'}}>x</span>
+        <p>{{content}}</p>
+    </div>
+</div>

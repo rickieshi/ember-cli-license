@@ -1,5 +1,15 @@
 # Changelog
 
+### [1.2.0-beta.3] - 2016-12-12
+* Added code to generate html file with license info
+
+### [1.2.0-beta.2] - 2016-12-01
+* Allow user to specify text displayed in UI component
+* Code Refactoring
+
+### [1.2.0-beta.1] - 2016-11-21
+* Add a component to display license page on UI
+* Changed the output path and filename
 
 ### [1.1.1] - 2016-11-16
 * Code refactoring
