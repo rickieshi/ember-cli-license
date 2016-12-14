@@ -1,4 +1,12 @@
 # Changelog
+### [1.2.2] - 2016-12-14
+* Hotfix: enchanced scanning for bower components
+* Hotfix: better HTML formatting
+* Changed License fields from plain text to links to offical license pages
+* Changed Repository fields from plain text to links to repositories
+
+### [1.2.1] - 2016-12-12
+* Release Version
 
 ### [1.2.0-beta.3] - 2016-12-12
 * Added code to generate html file with license info
