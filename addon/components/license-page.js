@@ -2,6 +2,9 @@ import component from 'ember-component';
 import layout from '../templates/components/license-page';
 import $ from 'jquery';
 import {
+    isEmpty
+} from 'ember-utils';
+import {
     htmlSafe
 } from 'ember-string';
 
@@ -24,6 +27,15 @@ export default component.extend({
             // if click on background, hide modal
             if (e.target === this.$('.modal')[0]) {
                 this.send('hideModal');
+            }
+        })
+        $('body').click('a.license-link', e => {
+            var target = $(e.target);
+            if (!isEmpty(target.attr('linkTo'))) {
+                this.$('.modal').scrollTop(0);
+                this.$('.modal').animate({
+                    scrollTop: $(document.getElementById(`${target.attr('linkTo')}`)).offset().top
+                });
             }
         });
     },
