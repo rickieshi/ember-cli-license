@@ -1,4 +1,10 @@
 # Changelog
+
+### [1.2.3] - 2016-12-15
+* Hotfix: fix a bug causing empty config `licenseContent` fields override scan result
+* Hotfix: fix a bug causing clicking anchor link not working in modal
+* Added a header for modal content
+
 ### [1.2.2] - 2016-12-14
 * Hotfix: enchanced scanning for bower components
 * Hotfix: better HTML formatting

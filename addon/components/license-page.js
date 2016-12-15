@@ -30,14 +30,20 @@ export default component.extend({
             }
         })
         $('body').click('a.license-link', e => {
-            var target = $(e.target);
-            if (!isEmpty(target.attr('linkTo'))) {
-                this.$('.modal').scrollTop(0);
-                this.$('.modal').animate({
-                    scrollTop: $(document.getElementById(`${target.attr('linkTo')}`)).offset().top
-                });
-            }
-        });
+                var target = $(e.target);
+                if (!isEmpty(target.attr('linkTo'))) {
+                    this.$('.modal').scrollTop(0);
+                    this.$('.modal').animate({
+                        scrollTop: $(document.getElementById(`${target.attr('linkTo')}`)).offset().top
+                    });
+                }
+            })
+            .click('a.license-redirect, a.repo-redirect', e => {
+                var target = $(e.target);
+                if (!isEmpty(target.attr('href'))) {
+                    window.open(target.attr('href'), '_blank');
+                }
+            });
     },
 
     actions: {
