@@ -1,8 +1,12 @@
 # Changelog
 
+### [1.2.4] - 2016-12-15
+* Hotfix: fixed a bug causing empty config `licenseContent` fields override scan results
+* Removed unnecesssary files (for now)
+
 ### [1.2.3] - 2016-12-15
-* Hotfix: fix a bug causing empty config `licenseContent` fields override scan result
-* Hotfix: fix a bug causing clicking anchor link not working in modal
+* Hotfix: fixed a bug causing empty config `licenseContent` fields override scan results
+* Hotfix: fixed a bug causing clicking anchor link not working in modal
 * Added a header for modal content
 
 ### [1.2.2] - 2016-12-14
