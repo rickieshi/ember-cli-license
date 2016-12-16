@@ -1,5 +1,8 @@
 # Changelog
 
+### [1.2.7] - 2016-12-16
+* Hotfix: bug fixes
+
 ### [1.2.6] - 2016-12-16
 * Hotfix: fixed bugs
 
