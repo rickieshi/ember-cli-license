@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.2.6] - 2016-12-16
+* Hotfix: fixed bugs
+
+### [1.2.5] - 2016-12-16
+* Hotfix: fixed "rabbit" bug (window popup when clicking anchors)
+
 ### [1.2.4] - 2016-12-15
 * Hotfix: fixed a bug causing empty config `licenseContent` fields override scan results
 * Removed unnecesssary files (for now)
