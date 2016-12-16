@@ -36,8 +36,8 @@ export default component.extend({
             }
 
             if (!isEmpty(target.attr('linkTo'))) {
-                this.$('.modal').scrollTop(0);
-                this.$('.modal').animate({
+                $('.license-page .modal').scrollTop(0);
+                $('.license-page .modal').animate({
                     scrollTop: $(document.getElementById(`${target.attr('linkTo')}`)).offset().top
                 });
             }
@@ -51,6 +51,9 @@ export default component.extend({
                 window.open(target.attr('href'), '_blank');
             }
         });
+    },
+    willDestroyElement(){
+        $('body').off('click', '.modal, a.license-redirect, a.repo-redirect');
     },
 
     actions: {
