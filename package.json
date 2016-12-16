@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-license",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Export and display NPM/Bower dependencies",
   "repository": {
     "type": "git",
