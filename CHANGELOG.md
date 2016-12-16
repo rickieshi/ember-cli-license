@@ -1,5 +1,8 @@
 # Changelog
 
+### [1.2.6] - 2016-12-16
+* Hotfix: fixed bugs
+
 ### [1.2.5] - 2016-12-16
 * Hotfix: fixed "rabbit" bug (window popup when clicking anchors)
 
